@@ -202,3 +202,30 @@ header h1{
     opacity: 100%;
     width: 60%;
 }
+
+@media screen and (max-width: 990px){
+    header{
+        flex-direction: column;
+        height: 20rem;
+    }
+     .menu_logo{
+        width: 20%;
+        height: auto;
+        margin-top: -50px;
+    }
+    header h1{
+        font-weight: 600;
+        letter-spacing: 15px;
+        position: block;
+        animation: none;
+    }
+    .products{
+        display: flex;
+        flex-direction: column;
+        margin: 0px 50px;
+        align-items: center;
+    }
+    .product{
+
+    }
+}
